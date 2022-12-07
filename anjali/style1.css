@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+background-image: url('./back11.jpg');
+background-size: cover;
+text-align: center;
+
+}
+h1
+{
+    font-size: 60px;
+    
+}
+h3{
+    font-size: large;
+}
+#container
+{
+    background-color: rgb(190, 185, 185);
+    padding: 100px;
+    margin:90px;
+    border: 2px solid rgb(204, 197, 197);
+     border-radius: 10px;
+}
+.input-div
+{
+    display: inline-block;
+}
+input{
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: larger;
+}
+.main
+{
+    font-size: 20px;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+}
+.container{
+    margin-top: 150px;
+    
+    
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+label{
+    
+    margin-left: 470px;
+    margin-top: 20px;
+    
+}
+input{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}

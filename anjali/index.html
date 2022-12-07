@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body style="background-image:url(./3.webp);">
+    <div class="container" >
+        <h1 class="heading">Registeration Form</h1>
+        <form>
+            <label for="id" style="margin-top: 40px;font-size: 20px; font-weight: bold;">ID</label>
+            &nbsp;&nbsp;<input type="text" name="id" id="idBox" placeholder="Enter ID" required style="margin-left: 23px;"><br><br>
+            <label for="name" style="font-size: 20px;font-weight: bold;">Name</label>
+            &nbsp;<input type="text" name="name" id="nameBox" placeholder="enter name" required><br><br>
+            <label for="email" style="font-size: 20px;font-weight: bold;">Email</label>
+            &nbsp;<input type="email" name="email" id="emailBox" placeholder="enter email" required><br><br>
+            <label for="phone" style="font-size: 20px;font-weight: bold;">Phone</label>
+            &nbsp;<input type="text" name="phone" id="phoneBox" placeholder="enter mobile number" required><br><br>
+            
+
+        </form>
+        <div class="buttons" style="display: inline-flex;">
+        <button class="btn1" value="register" style="text-align: cenetr;margin-left: 670px;margin-bottom: 20px;margin-top: 20px; background-color: black;border-radius: 20px;"><a href="./convertor.html" style="text-decoration: none;color:white;">Converter</a></button>
+        <button class="btn" value="register" style="text-align: cenetr;margin-left: -210px;margin-bottom: 20px;margin-top: 20px; background-color: black;border-radius: 20px;color: white;">Register</button>
+    </div>
+    </div>
+    <script src="./firebase.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+    
+</body>
+</html>
